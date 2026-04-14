@@ -1,0 +1,30 @@
+{
+  "name": "kingshot-alliance-member-checker",
+  "version": "1.0.0",
+  "description": "Discord bot for checking alliance membership by player ID.",
+  "homepage": "https://github.com/joshfen-dev/kingshot-alliance-member-checker#readme",
+  "bugs": {
+    "url": "https://github.com/joshfen-dev/kingshot-alliance-member-checker/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshfen-dev/kingshot-alliance-member-checker.git"
+  },
+  "license": "MIT",
+  "author": "JoshFen",
+  "type": "commonjs",
+  "main": "src/server.js",
+  "scripts": {
+    "check-member": "node src/checkAllianceMemberCli.js",
+    "register-commands": "node src/register-commands.js",
+    "start": "node src/server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "discord.js": "^14.21.0",
+    "dotenv": "^16.4.5",
+    "tweetnacl": "^1.0.3"
+  }
+}

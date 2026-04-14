@@ -1,0 +1,17 @@
+[
+  {
+    "allianceName": "ExampleClan",
+    "allianceMemberIds": [
+      "11111",
+      "222222",
+      "333333"
+    ]
+  },
+  {
+    "allianceName": "AnotherClan",
+    "allianceMemberIds": [
+      "555555",
+      "666666"
+    ]
+  }
+]

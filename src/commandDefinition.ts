@@ -1,6 +1,6 @@
-const { SlashCommandBuilder } = require("discord.js");
+import { SlashCommandBuilder } from "discord.js";
 
-const checkAllianceMemberCommand = new SlashCommandBuilder()
+export const checkAllianceMemberCommand = new SlashCommandBuilder()
   .setName("check-alliance-member")
   .setDescription("Check whether a player ID belongs to an alliance in alliance.json.")
   .addStringOption((option) =>
@@ -9,7 +9,3 @@ const checkAllianceMemberCommand = new SlashCommandBuilder()
       .setDescription("The player ID to search for.")
       .setRequired(true),
   );
-
-module.exports = {
-  checkAllianceMemberCommand,
-};

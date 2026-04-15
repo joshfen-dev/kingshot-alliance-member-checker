@@ -13,11 +13,12 @@
   "license": "MIT",
   "author": "JoshFen",
   "type": "commonjs",
-  "main": "src/server.js",
+  "main": "dist/server.js",
   "scripts": {
-    "check-member": "node src/checkAllianceMemberCli.js",
-    "register-commands": "node src/register-commands.js",
-    "start": "node src/server.js"
+    "build": "tsc",
+    "check-member": "npm run build && node dist/checkAllianceMemberCli.js",
+    "register-commands": "npm run build && node dist/register-commands.js",
+    "start": "npm run build && node dist/server.js"
   },
   "engines": {
     "node": ">=20"
@@ -26,5 +27,9 @@
     "discord.js": "^14.21.0",
     "dotenv": "^16.4.5",
     "tweetnacl": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.7.2",
+    "typescript": "^5.9.3"
   }
 }

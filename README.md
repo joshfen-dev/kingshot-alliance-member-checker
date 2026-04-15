@@ -2,6 +2,8 @@
 
 Discord slash-command service that checks whether a player ID belongs to an alliance listed in `alliance.json`.
 
+The app is written in TypeScript and compiles to `dist/` before running.
+
 ## What it does
 
 Once configured, this app responds to the slash command:
@@ -17,10 +19,10 @@ Discord sends the command to your HTTP interactions endpoint, the app checks `al
 
 - `alliance.json`: Your alliance data source
 - Each record in `alliance.json` can grow later with extra fields such as `playerName`
-- `src/allianceLookup.js`: Shared lookup logic
-- `src/checkAllianceMemberCli.js`: Local CLI testing without Discord
-- `src/register-commands.js`: Registers the slash command in your Discord server
-- `src/server.js`: HTTP interactions server for Discord
+- `src/allianceLookup.ts`: Shared lookup logic
+- `src/checkAllianceMemberCli.ts`: Local CLI testing without Discord
+- `src/register-commands.ts`: Registers the slash command in your Discord server
+- `src/server.ts`: HTTP interactions server for Discord
 
 ## Setup
 
@@ -48,20 +50,26 @@ Discord sends the command to your HTTP interactions endpoint, the app checks `al
 npm install
 ```
 
-9. Register the slash command in your server:
+9. Build the TypeScript project:
+
+```bash
+npm run build
+```
+
+10. Register the slash command in your server:
 
 ```bash
 npm run register-commands
 ```
 
-10. Start the local HTTP server:
+11. Start the local HTTP server:
 
 ```bash
 npm start
 ```
 
-11. Expose your local server to the internet with a tunnel such as `cloudflared` or `ngrok`.
-12. In the Discord Developer Portal, set the Interactions Endpoint URL to:
+12. Expose your local server to the internet with a tunnel such as `cloudflared` or `ngrok`.
+13. In the Discord Developer Portal, set the Interactions Endpoint URL to:
 
 ```text
 https://your-public-url.example/interactions
@@ -138,4 +146,4 @@ This shape is intentionally future-friendly, so you can later extend records lik
 
 - The app now uses Discord HTTP interactions instead of a persistent Gateway bot connection.
 - Guild command registration is used so updates appear quickly while you are developing.
-- If you later want this slash command available globally, switch registration from guild commands to global commands in `src/register-commands.js`.
+- If you later want this slash command available globally, switch registration from guild commands to global commands in `src/register-commands.ts`.

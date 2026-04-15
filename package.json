@@ -18,7 +18,7 @@
     "build": "tsc",
     "check-member": "npm run build && node dist/checkAllianceMemberCli.js",
     "register-commands": "npm run build && node dist/register-commands.js",
-    "start": "npm run build && node dist/server.js"
+    "start": "node dist/server.js"
   },
   "engines": {
     "node": ">=20"

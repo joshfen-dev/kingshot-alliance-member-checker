@@ -2,10 +2,10 @@ import { SlashCommandBuilder } from "discord.js";
 
 export const checkAllianceMemberCommand = new SlashCommandBuilder()
   .setName("check-alliance-member")
-  .setDescription("Check whether a player ID belongs to an alliance in alliance.json.")
+  .setDescription("Check whether a player belongs to a top 5 alliance via their player ID")
   .addStringOption((option) =>
     option
-      .setName("playerid")
+      .setName("playerId")
       .setDescription("The player ID to search for.")
       .setRequired(true),
   );

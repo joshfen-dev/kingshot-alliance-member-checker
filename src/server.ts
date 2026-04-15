@@ -166,7 +166,7 @@ async function handleInteraction(
   }
 
   const playerId = String(
-    getCommandOptionValue(interaction, "playerid") ?? "",
+    getCommandOptionValue(interaction, "player_id") ?? "",
   ).trim();
 
   if (!playerId) {

@@ -8,7 +8,7 @@ The app is written in TypeScript and compiles to `dist/` before running.
 
 Once configured, this app responds to the slash command:
 
-`/check-alliance-member playerid:<player-id>`
+`/check-alliance-member player_id:<player-id>`
 
 Discord sends the command to your HTTP interactions endpoint, the app checks `alliance.json`, and it replies with either:
 
@@ -125,19 +125,6 @@ Discord interaction service is running.
   {
     "playerId": "666666",
     "allianceName": "AnotherClan"
-  }
-]
-```
-
-This shape is intentionally future-friendly, so you can later extend records like:
-
-```json
-[
-  {
-    "playerId": "11111",
-    "playerName": "Fenrir",
-    "allianceName": "ExampleClan",
-    "serverId": "1234"
   }
 ]
 ```

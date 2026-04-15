@@ -16,6 +16,7 @@ Discord sends the command to your HTTP interactions endpoint, the app checks `al
 ## Project structure
 
 - `alliance.json`: Your alliance data source
+- Each record in `alliance.json` can grow later with extra fields such as `playerName`
 - `src/allianceLookup.js`: Shared lookup logic
 - `src/checkAllianceMemberCli.js`: Local CLI testing without Discord
 - `src/register-commands.js`: Registers the slash command in your Discord server
@@ -98,8 +99,37 @@ Discord interaction service is running.
 ```json
 [
   {
+    "playerId": "11111",
+    "allianceName": "ExampleClan"
+  },
+  {
+    "playerId": "222222",
+    "allianceName": "ExampleClan"
+  },
+  {
+    "playerId": "333333",
+    "allianceName": "ExampleClan"
+  },
+  {
+    "playerId": "555555",
+    "allianceName": "AnotherClan"
+  },
+  {
+    "playerId": "666666",
+    "allianceName": "AnotherClan"
+  }
+]
+```
+
+This shape is intentionally future-friendly, so you can later extend records like:
+
+```json
+[
+  {
+    "playerId": "11111",
+    "playerName": "Fenrir",
     "allianceName": "ExampleClan",
-    "allianceMemberIds": ["11111", "222222", "333333"]
+    "serverId": "1234"
   }
 ]
 ```

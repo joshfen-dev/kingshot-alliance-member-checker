@@ -8,7 +8,7 @@ async function loadAllianceData() {
   const parsedAllianceData = JSON.parse(rawAllianceData);
 
   if (!Array.isArray(parsedAllianceData)) {
-    throw new Error("alliance.json must contain an array of alliance records.");
+    throw new Error("alliance.json must contain an array of player records.");
   }
 
   return parsedAllianceData;
@@ -18,9 +18,9 @@ async function findAllianceByMemberId(idToCheck) {
   const normalizedId = String(idToCheck).trim();
   const allianceData = await loadAllianceData();
 
-  const matchedAlliance = allianceData.find((alliance) =>
-    Array.isArray(alliance.allianceMemberIds) &&
-    alliance.allianceMemberIds.includes(normalizedId),
+  const matchedAlliance = allianceData.find((playerRecord) =>
+    typeof playerRecord?.playerId === "string" &&
+    playerRecord.playerId.trim() === normalizedId,
   );
 
   return matchedAlliance ?? null;

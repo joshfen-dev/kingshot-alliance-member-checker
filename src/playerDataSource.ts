@@ -10,6 +10,11 @@ export interface PlayerRecord {
 
 export type DataStoreType = "json" | "firestore";
 
+export interface CreatePlayerRecordResult {
+  created: boolean;
+  record: PlayerRecord;
+}
+
 const allianceFilePath = path.resolve(__dirname, "..", "alliance.json");
 const firestoreCollectionName = process.env.FIRESTORE_COLLECTION || "players";
 
@@ -26,6 +31,13 @@ function isPlayerRecord(value: unknown): value is PlayerRecord {
     typeof candidate.playerId === "string" &&
     typeof candidate.allianceName === "string"
   );
+}
+
+function normalizePlayerRecord(record: PlayerRecord): PlayerRecord {
+  return {
+    playerId: record.playerId.trim(),
+    allianceName: record.allianceName.trim(),
+  };
 }
 
 function getFirestoreClient(): Firestore {
@@ -86,10 +98,7 @@ export async function findPlayerRecordsByPlayerId(
     return snapshot.docs
       .map((doc) => doc.data())
       .filter(isPlayerRecord)
-      .map((record) => ({
-        playerId: record.playerId.trim(),
-        allianceName: record.allianceName.trim(),
-      }));
+      .map(normalizePlayerRecord);
   }
 
   const allianceData = await loadAllianceDataFromJson();
@@ -103,10 +112,7 @@ export function dedupeExactPlayerRecords(records: PlayerRecord[]): PlayerRecord[
   const seen = new Set<string>();
 
   return records.filter((record) => {
-    const normalizedRecord = {
-      playerId: record.playerId.trim(),
-      allianceName: record.allianceName.trim(),
-    };
+    const normalizedRecord = normalizePlayerRecord(record);
     const key = `${normalizedRecord.playerId}::${normalizedRecord.allianceName}`;
 
     if (seen.has(key)) {
@@ -122,6 +128,40 @@ export function dedupeExactPlayerRecords(records: PlayerRecord[]): PlayerRecord[
 
 export function buildFirestoreDocumentId(record: PlayerRecord): string {
   return encodeURIComponent(`${record.playerId.trim()}::${record.allianceName.trim()}`);
+}
+
+export async function createPlayerRecord(
+  record: PlayerRecord,
+): Promise<CreatePlayerRecordResult> {
+  const normalizedRecord = normalizePlayerRecord(record);
+
+  if (!normalizedRecord.playerId || !normalizedRecord.allianceName) {
+    throw new Error("playerId and allianceName are required.");
+  }
+
+  if (getConfiguredDataStore() !== "firestore") {
+    throw new Error("Creating player records is only supported when DATA_STORE=firestore.");
+  }
+
+  const firestore = getFirestoreClient();
+  const documentRef = firestore
+    .collection(firestoreCollectionName)
+    .doc(buildFirestoreDocumentId(normalizedRecord));
+  const existingDocument = await documentRef.get();
+
+  if (existingDocument.exists) {
+    return {
+      created: false,
+      record: normalizedRecord,
+    };
+  }
+
+  await documentRef.set(normalizedRecord);
+
+  return {
+    created: true,
+    record: normalizedRecord,
+  };
 }
 
 export async function syncPlayerRecordsToFirestore(

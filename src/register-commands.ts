@@ -1,7 +1,10 @@
 import "dotenv/config";
 
 import { REST, Routes } from "discord.js";
-import { checkAllianceMemberCommand } from "./commandDefinition";
+import {
+  addAllianceMemberCommand,
+  checkAllianceMemberCommand,
+} from "./commandDefinition";
 
 function getRequiredEnvVar(name: string): string {
   const value = process.env[name];
@@ -19,7 +22,10 @@ async function registerCommands(): Promise<void> {
   const discordGuildId = getRequiredEnvVar("DISCORD_GUILD_ID");
 
   const rest = new REST({ version: "10" }).setToken(discordToken);
-  const commands = [checkAllianceMemberCommand.toJSON()];
+  const commands = [
+    checkAllianceMemberCommand.toJSON(),
+    addAllianceMemberCommand.toJSON(),
+  ];
 
   await rest.put(
     Routes.applicationGuildCommands(discordClientId, discordGuildId),

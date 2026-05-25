@@ -10,10 +10,16 @@ Once configured, this app responds to the slash command:
 
 `/check-alliance-member player_id:<player-id>`
 
+It also supports:
+
+`/add-alliance-member player_id:<player-id> alliance_name:<alliance-name>`
+
 Discord sends the command to your HTTP interactions endpoint, the app checks `alliance.json`, and it replies with either:
 
 - `Match found for member 12345 in alliance ExampleClan`
 - `No match found for member 12345`
+
+When Firestore mode is enabled, you can also create a new player record directly from Discord with `/add-alliance-member`.
 
 ## Project structure
 
@@ -123,6 +129,8 @@ DATA_STORE=firestore npm run sync-firestore
 ```
 
 This script de-duplicates exact `{ playerId, allianceName }` pairs and writes deterministic Firestore document IDs so repeated syncs update the same records instead of creating new duplicates.
+
+The `/add-alliance-member` command writes new records only when `DATA_STORE=firestore`. If the exact same `{ playerId, allianceName }` record already exists, the bot reports that instead of creating a duplicate.
 
 You can also verify the local service is up:
 

@@ -1,6 +1,6 @@
 # kingshot-alliance-member-checker
 
-Discord slash-command service that checks whether a player ID belongs to an alliance listed in `alliance.json`.
+Discord slash-command service that checks whether a player ID belongs to an alliance listed in `alliance.json` or stored in Firestore.
 
 The app is written in TypeScript and compiles to `dist/` before running.
 
@@ -17,12 +17,14 @@ Discord sends the command to your HTTP interactions endpoint, the app checks `al
 
 ## Project structure
 
-- `alliance.json`: Your alliance data source
+- `alliance.json`: Your local player data source and Firestore seed data
 - Each record in `alliance.json` can grow later with extra fields such as `playerName`
 - `src/allianceLookup.ts`: Shared lookup logic
+- `src/playerDataSource.ts`: JSON and Firestore backend logic
 - `src/checkAllianceMemberCli.ts`: Local CLI testing without Discord
 - `src/register-commands.ts`: Registers the slash command in your Discord server
 - `src/server.ts`: HTTP interactions server for Discord
+- `src/syncFirestoreFromJson.ts`: Seeds Firestore from `alliance.json`
 
 ## Setup
 
@@ -44,6 +46,9 @@ Discord sends the command to your HTTP interactions endpoint, the app checks `al
    - `DISCORD_GUILD_ID`
    - `DISCORD_PUBLIC_KEY`
    - `PORT`
+   - `DATA_STORE`
+   - `FIRESTORE_COLLECTION`
+   - `FIRESTORE_PROJECT_ID` if needed outside Cloud Run
 8. Install dependencies:
 
 ```bash
@@ -89,6 +94,35 @@ Example output:
 
 - `Match found for member 11111 in alliance ExampleClan`
 - `No match found for member 99999`
+
+## Firestore mode
+
+The app can read player records from either:
+
+- `DATA_STORE=json`
+- `DATA_STORE=firestore`
+
+When `DATA_STORE=firestore`, the app queries the Firestore collection named by `FIRESTORE_COLLECTION` and expects documents with at least:
+
+```json
+{
+  "playerId": "266253364",
+  "allianceName": "HHH"
+}
+```
+
+The Node.js server client uses Application Default Credentials. That means:
+
+- on Cloud Run, the service account is used automatically
+- locally, use `gcloud auth application-default login` or set `GOOGLE_APPLICATION_CREDENTIALS`
+
+To seed Firestore from your current `alliance.json`:
+
+```bash
+DATA_STORE=firestore npm run sync-firestore
+```
+
+This script de-duplicates exact `{ playerId, allianceName }` pairs and writes deterministic Firestore document IDs so repeated syncs update the same records instead of creating new duplicates.
 
 You can also verify the local service is up:
 

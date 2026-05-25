@@ -3,9 +3,9 @@ import "dotenv/config";
 import { createServer, IncomingMessage, ServerResponse } from "node:http";
 import nacl from "tweetnacl";
 import {
-  findAllianceMemberByPlayerId,
+  AllianceLookupResult,
+  findAllianceMembersByPlayerId,
   formatAllianceCheckMessage,
-  PlayerRecord,
 } from "./allianceLookup";
 
 const INTERACTION_TYPE_PING = 1;
@@ -15,6 +15,7 @@ const INTERACTION_RESPONSE_TYPE_CHANNEL_MESSAGE_WITH_SOURCE = 4;
 const MESSAGE_FLAG_EPHEMERAL = 1 << 6;
 const EMBED_COLOR_SUCCESS = 0x57f287;
 const EMBED_COLOR_ERROR = 0xed4245;
+const EMBED_COLOR_WARNING = 0xfee75c;
 
 interface DiscordInteractionOption {
   name: string;
@@ -115,14 +116,26 @@ function getCommandOptionValue(
 
 function buildAllianceCheckEmbed(
   playerId: string,
-  matchedAlliance: PlayerRecord | null,
+  lookupResult: AllianceLookupResult,
 ): AllianceCheckEmbed {
-  const matchFound = Boolean(matchedAlliance);
-  const allianceName = matchedAlliance ? matchedAlliance.allianceName : "None";
+  const allianceNames = lookupResult.uniqueAllianceNames;
+  const hasMatches = allianceNames.length > 0;
+  const hasMultipleAlliances = allianceNames.length > 1;
+
+  let resultText = "No match found";
+  let color = EMBED_COLOR_ERROR;
+
+  if (hasMultipleAlliances) {
+    resultText = "Multiple matches found";
+    color = EMBED_COLOR_WARNING;
+  } else if (hasMatches) {
+    resultText = "Match found";
+    color = EMBED_COLOR_SUCCESS;
+  }
 
   return {
     title: "Alliance Check Result",
-    color: matchFound ? EMBED_COLOR_SUCCESS : EMBED_COLOR_ERROR,
+    color,
     fields: [
       {
         name: "Player ID",
@@ -131,12 +144,12 @@ function buildAllianceCheckEmbed(
       },
       {
         name: "Result",
-        value: matchFound ? "Match found" : "No match found",
+        value: resultText,
         inline: true,
       },
       {
-        name: "Alliance",
-        value: allianceName,
+        name: allianceNames.length > 1 ? "Alliances" : "Alliance",
+        value: hasMatches ? allianceNames.join(", ") : "None",
         inline: false,
       },
     ],
@@ -181,16 +194,16 @@ async function handleInteraction(
     };
   }
 
-  const matchedAlliance = await findAllianceMemberByPlayerId(playerId);
+  const lookupResult = await findAllianceMembersByPlayerId(playerId);
 
   return {
     statusCode: 200,
     body: {
       type: INTERACTION_RESPONSE_TYPE_CHANNEL_MESSAGE_WITH_SOURCE,
       data: {
-        content: formatAllianceCheckMessage(playerId, matchedAlliance),
+        content: formatAllianceCheckMessage(playerId, lookupResult),
         flags: MESSAGE_FLAG_EPHEMERAL,
-        embeds: [buildAllianceCheckEmbed(playerId, matchedAlliance)],
+        embeds: [buildAllianceCheckEmbed(playerId, lookupResult)],
         allowed_mentions: {
           parse: [],
         },

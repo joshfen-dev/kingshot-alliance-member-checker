@@ -1,22 +1,2942 @@
 [
   {
-    "playerId": "11111",
-    "allianceName": "ExampleClan"
+    "playerId": "266253364",
+    "allianceName": "HHH"
   },
   {
-    "playerId": "222222",
-    "allianceName": "ExampleClan"
+    "playerId": "267482382",
+    "allianceName": "HHH"
   },
   {
-    "playerId": "333333",
-    "allianceName": "ExampleClan"
+    "playerId": "265319595",
+    "allianceName": "HHH"
   },
   {
-    "playerId": "555555",
-    "allianceName": "AnotherClan"
+    "playerId": "265107407",
+    "allianceName": "HHH"
   },
   {
-    "playerId": "666666",
-    "allianceName": "AnotherClan"
+    "playerId": "266909260",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "267432934",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "267793445",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "264500291",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "264844702",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "265188867",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "264795190",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "267187438",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "267187563",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "264434980",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "265122777",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "268220064",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "266695873",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "267204161",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "268219525",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "268154950",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "265352262",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "268220030",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "268416103",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "265958661",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "268367171",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "264910092",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "265090526",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "265221297",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "267449990",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "267465776",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "268269215",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "265025088",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "265106413",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "268318069",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "265630910",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "267302299",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "265221125",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "264975692",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "269911291",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "271862518",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "266467016",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "267564353",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "267252958",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "266761522",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "264894009",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "264713379",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "267990565",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "266417485",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "267007604",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "265237639",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "267597170",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "266040783",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "264926696",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "264959197",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "264680399",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "264336908",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "265204701",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "265729472",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "266892351",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "264893724",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "266204165",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "265434635",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "265876583",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "266172103",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "266450100",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "265499759",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "266876479",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "265008859",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "264353309",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "266171397",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "266384836",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "266531934",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "267301897",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "266483085",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "264713261",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "267793927",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "265434297",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "267335081",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "265139843",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "266139106",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "266860042",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "264681154",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "267286093",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "264828038",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "268154207",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "266908938",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "265008371",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "264959696",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "268399672",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "278586326",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "266155113",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "267465714",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "267892289",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "266843779",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "266745240",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "267383826",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "266466725",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "266269767",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "267220709",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "267842810",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "268105441",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "266450402",
+    "allianceName": "HHH"
+  },
+  {
+    "playerId": "267776957",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "264303871",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "267171112",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "266270193",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "267384427",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "266269687",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "266532524",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "264434855",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "266384420",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "264680921",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "267793696",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "266925277",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "264713823",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "268039668",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "268236249",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "267990721",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "265942320",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "266745522",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "264287591",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "266515899",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "266777962",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "265319700",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "265761890",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "268317673",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "266089668",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "265548802",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "264435892",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "265418171",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "267695705",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "267187635",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "267040125",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "267613924",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "264385925",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "267367600",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "267924708",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "265401926",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "265532609",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "264352933",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "267859029",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "265221209",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "264582877",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "267318347",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "267662978",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "267367684",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "264517344",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "267679377",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "267204126",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "265614401",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "268366894",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "266991112",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "267121846",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "267482519",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "268121252",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "266155035",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "268137525",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "267564171",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "264631323",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "267924833",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "264516729",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "268432343",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "267777214",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "267695486",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "267662434",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "264729724",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "265598313",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "264533221",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "267875939",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "264353234",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "266516003",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "265123173",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "264680910",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "265238098",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "267089207",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "265319421",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "265057981",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "264385615",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "267122342",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "270050553",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "265729378",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "265057870",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "267351425",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "265958938",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "265221682",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "265287231",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "265303591",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "268252246",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "266843370",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "266892965",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "267285685",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "267580616",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "267826825",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "266860085",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "267892444",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "266925695",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "266778192",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "264337119",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "265008610",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "265451053",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "264369435",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "265664008",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "265107053",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "266630673",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "315041985",
+    "allianceName": "KnH"
+  },
+  {
+    "playerId": "265352129",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "266138689",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "266908701",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "267482205",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "266958348",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "268105441",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "267761202",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "267203941",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "267252920",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "267204290",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "268039806",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "267531634",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "264746718",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "268268712",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "267187816",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "264893622",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "265532870",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "264746677",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "264517211",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "267941037",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "268186560",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "267826416",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "270585846",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "265434579",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "265417829",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "268170556",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "268268753",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "267498477",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "266171916",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "264303630",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "264844439",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "267728448",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "267466318",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "265516715",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "264532994",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "265909539",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "264730016",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "267843153",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "267040458",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "264926760",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "265876546",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "265188810",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "264483972",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "266679602",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "265565230",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "265025186",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "267219926",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "266384840",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "267696160",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "266188176",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "268023093",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "265532475",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "268154061",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "265483512",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "265073681",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "267859322",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "267695439",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "268006716",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "264713599",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "266106221",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "267368108",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "266532491",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "268056173",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "265909525",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "265253855",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "264812197",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "265188516",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "267646094",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "266302504",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "265860325",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "266728626",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "264729811",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "267367642",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "265942247",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "265303717",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "267810241",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "267826813",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "267960062",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "266155672",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "267384071",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "264254485",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "267187369",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "265221837",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "265598694",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "266155643",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "267007058",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "267040368",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "265155653",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "267875932",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "267253034",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "266827253",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "268072530",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "266007648",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "266876104",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "267073005",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "264615393",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "266501898",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "282224298",
+    "allianceName": "PHL"
+  },
+  {
+    "playerId": "266531862",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "265369141",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "264287420",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "267170836",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "268302013",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "266286610",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "266138861",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "265582251",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "265303793",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "268334248",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "266597415",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "265139882",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "265582321",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "267007322",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "266663090",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "267678867",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "264681162",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "265073966",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "266024194",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "264287348",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "265385450",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "266450010",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "265532962",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "266187761",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "265565772",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "265860273",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "267924850",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "264467436",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "265696214",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "268007085",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "267285628",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "275772748",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "279125459",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "266106385",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "267924602",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "266712781",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "266008018",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "267023978",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "267072979",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "266761263",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "267826542",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "264287698",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "267597346",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "265909748",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "268432792",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "265729690",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "265336397",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "264795658",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "264976103",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "266581274",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "264468053",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "266139224",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "264336597",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "264467692",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "267384383",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "264975546",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "264828424",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "268219609",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "264828176",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "267482757",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "265942057",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "264746200",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "268088666",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "267859648",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "266171735",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "267252991",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "264828252",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "267105431",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "264762704",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "267744450",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "266892658",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "264369450",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "264451131",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "265270449",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "268268945",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "267744900",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "264287462",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "266269784",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "267154639",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "267351132",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "265663987",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "266008271",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "265025264",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "266008241",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "276038829",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "264353377",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "266466541",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "265860828",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "267793870",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "268285044",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "266056854",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "266598012",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "265500171",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "268154577",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "267007134",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "265205442",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "267728458",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "265368990",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "265647261",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "264303630",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "265025186",
+    "allianceName": "MAD"
+  },
+  {
+    "playerId": "267121810",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "265614556",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "266483165",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "265713029",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "265303692",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "264599124",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "268023248",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "265205139",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "264893996",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "265598580",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "265942071",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "266122429",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "279176950",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "264369537",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "280204970",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "268219430",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "265008509",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "267122254",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "267433403",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "266778350",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "267777753",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "267482668",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "265090413",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "267449480",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "266237299",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "265254557",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "267564242",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "267318404",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "264860786",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "264975416",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "264861308",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "266286629",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "265712847",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "265221556",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "265123006",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "266450122",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "266958071",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "267154965",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "264500736",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "264484239",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "282817112",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "265385333",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "264664253",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "265844006",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "267040203",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "266368417",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "264631312",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "267367655",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "264549754",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "274406000",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "267727985",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "283222022",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "289245865",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "266253944",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "264271036",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "264992024",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "265188513",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "265745552",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "266499340",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "266482724",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "264582464",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "266827421",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "264369711",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "293554889",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "267367548",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "289174484",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "266155529",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "295343051",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "268334209",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "267138722",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "287833786",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "297271933",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "267072797",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "268383757",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "268039745",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "286682559",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "268432741",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "268318167",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "264681144",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "268007092",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "266351874",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "265794925",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "267335079",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "267613136",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "265352614",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "265025007",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "267286009",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "267138792",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "267073094",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "266548423",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "267826835",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "266335568",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "265581892",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "265532572",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "291218365",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "265647379",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "266515770",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "267138758",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "266450107",
+    "allianceName": "Knh"
+  },
+  {
+    "playerId": "265352690",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "265204978",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "265794866",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "265565905",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "265467473",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "265369170",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "265074127",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "265041329",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "266024347",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "266056976",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "266695773",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "264992488",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "265795252",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "267449469",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "264303662",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "265631338",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "264287414",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "265254123",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "265254170",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "267367558",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "265434159",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "265893217",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "267613233",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "266368046",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "265860729",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "265040965",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "265532656",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "265254522",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "267547881",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "267449565",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "267728263",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "266024509",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "268350901",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "267892356",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "267236989",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "267875633",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "264713673",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "265762357",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "265532526",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "268006805",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "265303022",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "267662957",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "268958997",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "265253962",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "266171930",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "264647901",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "265287274",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "295725236",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "267826611",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "267826658",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "265843996",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "267760785",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "267875738",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "267744852",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "266761916",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "265467175",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "266434048",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "265401379",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "265844250",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "264467969",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "268006862",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "265548760",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "264631826",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "267073029",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "267842748",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "267368081",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "267237063",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "268252484",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "265106722",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "267941553",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "267580805",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "266548448",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "265499716",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "267761050",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "269988902",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "268072457",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "265827450",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "265041416",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "267630030",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "266990901",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "268072216",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "266237486",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "267646493",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "268006450",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "267482776",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "266630407",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "264812060",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "298161284",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "266417871",
+    "allianceName": "mad"
+  },
+  {
+    "playerId": "267793564",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "266909027",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "264664275",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "267269387",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "266827332",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "267318963",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "265303166",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "265581760",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "267531613",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "267367672",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "266433961",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "267204003",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "266991229",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "265270363",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "265925990",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "266859975",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "268301855",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "267203859",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "266876257",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "266237120",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "265516498",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "267777300",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "268285286",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "265024809",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "267957778",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "264926626",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "265270528",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "266008066",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "264632032",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "265761969",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "264303626",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "265565816",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "264402252",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "264615516",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "268088344",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "265959112",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "267809975",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "266810754",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "266089711",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "265991431",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "267548163",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "268285083",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "267236454",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "267482547",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "267056566",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "265205010",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "288268771",
+    "allianceName": "TSK"
+  },
+  {
+    "playerId": "280647390",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "267138419",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "273043952",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "267222480",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "277993925",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "274599117",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "270559586",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "273977277",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "273960397",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "265483958",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "265238078",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "272041895",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "274835269",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "268006381",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "268285640",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "268399823",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "266892766",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "268432542",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "266384796",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "267990755",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "266138717",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "273533974",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "267711572",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "277486016",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "265483483",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "277060038",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "265385462",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "267023699",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "275624964",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "289974433",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "265729227",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "281536819",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "294261498",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "268694572",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "267154576",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "266564626",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "266960760",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "280343074",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "295968461",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "268400183",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "271496222",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "294217197",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "295675278",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "276567827",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "298750122",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "299583507",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "267007691",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "298668805",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "266663302",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "299811747",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "290181983",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "294297074",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "295693130",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "301699748",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "266204239",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "298868830",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "280860845",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "267826135",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "295408719",
+    "allianceName": "hhh"
+  },
+  {
+    "playerId": "278421564",
+    "allianceName": "Phl"
+  },
+  {
+    "playerId": "267138296",
+    "allianceName": "Phl"
+  },
+  {
+    "playerId": "265680606",
+    "allianceName": "Phl"
+  },
+  {
+    "playerId": "267286163",
+    "allianceName": "Phl"
+  },
+  {
+    "playerId": "265827753",
+    "allianceName": "Phl"
+  },
+  {
+    "playerId": "288533533",
+    "allianceName": "Phl"
+  },
+  {
+    "playerId": "265107124",
+    "allianceName": "Phl"
+  },
+  {
+    "playerId": "292590971",
+    "allianceName": "Phl"
+  },
+  {
+    "playerId": "267564266",
+    "allianceName": "Phl"
+  },
+  {
+    "playerId": "266679857",
+    "allianceName": "Phl"
+  },
+  {
+    "playerId": "268252419",
+    "allianceName": "Phl"
+  },
+  {
+    "playerId": "264713194",
+    "allianceName": "Phl"
+  },
+  {
+    "playerId": "266728672",
+    "allianceName": "Phl"
+  },
+  {
+    "playerId": "267253228",
+    "allianceName": "Phl"
+  },
+  {
+    "playerId": "267302617",
+    "allianceName": "Phl"
+  },
+  {
+    "playerId": "268400265",
+    "allianceName": "Phl"
+  },
+  {
+    "playerId": "268416268",
+    "allianceName": "Phl"
+  },
+  {
+    "playerId": "264599057",
+    "allianceName": "Phl"
+  },
+  {
+    "playerId": "268023206",
+    "allianceName": "Phl"
+  },
+  {
+    "playerId": "267810265",
+    "allianceName": "Phl"
+  },
+  {
+    "playerId": "266483316",
+    "allianceName": "Phl"
+  },
+  {
+    "playerId": "266663438",
+    "allianceName": "Phl"
+  },
+  {
+    "playerId": "266302773",
+    "allianceName": "Phl"
+  },
+  {
+    "playerId": "266171763",
+    "allianceName": "Phl"
+  },
+  {
+    "playerId": "266155508",
+    "allianceName": "Phl"
+  },
+  {
+    "playerId": "265106832",
+    "allianceName": "Phl"
+  },
+  {
+    "playerId": "266515911",
+    "allianceName": "Phl"
+  },
+  {
+    "playerId": "264271041",
+    "allianceName": "Phl"
+  },
+  {
+    "playerId": "265451208",
+    "allianceName": "Phl"
+  },
+  {
+    "playerId": "267121878",
+    "allianceName": "Phl"
+  },
+  {
+    "playerId": "264697331",
+    "allianceName": "Phl"
+  },
+  {
+    "playerId": "268367354",
+    "allianceName": "Phl"
+  },
+  {
+    "playerId": "267564385",
+    "allianceName": "Phl"
+  },
+  {
+    "playerId": "265631228",
+    "allianceName": "Phl"
+  },
+  {
+    "playerId": "268366818",
+    "allianceName": "Phl"
+  },
+  {
+    "playerId": "264418826",
+    "allianceName": "Phl"
+  },
+  {
+    "playerId": "267580872",
+    "allianceName": "Phl"
   }
 ]

@@ -1,5 +1,5 @@
 import {
-  findAllianceMemberByPlayerId,
+  findAllianceMembersByPlayerId,
   formatAllianceCheckMessage,
 } from "./allianceLookup";
 
@@ -12,8 +12,8 @@ async function run(): Promise<void> {
     return;
   }
 
-  const matchedAlliance = await findAllianceMemberByPlayerId(playerId);
-  console.log(formatAllianceCheckMessage(playerId, matchedAlliance));
+  const lookupResult = await findAllianceMembersByPlayerId(playerId);
+  console.log(formatAllianceCheckMessage(playerId, lookupResult));
 }
 
 run().catch((error: unknown) => {

@@ -15,8 +15,9 @@
   "type": "commonjs",
   "main": "dist/server.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc",      
     "check-member": "npm run build && node dist/checkAllianceMemberCli.js",
+    "sync-firestore": "npm run build && node dist/syncFirestoreFromJson.js",
     "register-commands": "npm run build && node dist/register-commands.js",
     "start": "node dist/server.js"
   },
@@ -24,6 +25,7 @@
     "node": ">=20"
   },
   "dependencies": {
+    "@google-cloud/firestore": "^7.11.0",
     "discord.js": "^14.21.0",
     "dotenv": "^16.4.5",
     "tweetnacl": "^1.0.3"

@@ -7,6 +7,7 @@ import {
   findAllianceMembersByPlayerId,
   formatAllianceCheckMessage,
 } from "./allianceLookup";
+import { createPlayerRecord } from "./playerDataSource";
 
 const INTERACTION_TYPE_PING = 1;
 const INTERACTION_TYPE_APPLICATION_COMMAND = 2;
@@ -38,6 +39,16 @@ interface InteractionResponse {
 }
 
 interface AllianceCheckEmbed {
+  title: string;
+  color: number;
+  fields: Array<{
+    name: string;
+    value: string;
+    inline?: boolean;
+  }>;
+}
+
+interface AddAllianceMemberEmbed {
   title: string;
   color: number;
   fields: Array<{
@@ -156,28 +167,37 @@ function buildAllianceCheckEmbed(
   };
 }
 
-async function handleInteraction(
+function buildAddAllianceMemberEmbed(
+  playerId: string,
+  allianceName: string,
+  created: boolean,
+): AddAllianceMemberEmbed {
+  return {
+    title: created ? "Player Added" : "Player Already Exists",
+    color: created ? EMBED_COLOR_SUCCESS : EMBED_COLOR_WARNING,
+    fields: [
+      {
+        name: "Player ID",
+        value: playerId,
+        inline: true,
+      },
+      {
+        name: "Alliance",
+        value: allianceName,
+        inline: true,
+      },
+      {
+        name: "Result",
+        value: created ? "Created new Firestore record" : "Exact record already existed",
+        inline: false,
+      },
+    ],
+  };
+}
+
+async function handleCheckAllianceMemberInteraction(
   interaction: DiscordInteractionPayload,
 ): Promise<InteractionResponse> {
-  if (interaction.type === INTERACTION_TYPE_PING) {
-    return {
-      statusCode: 200,
-      body: { type: INTERACTION_RESPONSE_TYPE_PONG },
-    };
-  }
-
-  if (
-    interaction.type !== INTERACTION_TYPE_APPLICATION_COMMAND ||
-    interaction.data?.name !== "check-alliance-member"
-  ) {
-    return {
-      statusCode: 400,
-      body: {
-        error: "Unsupported interaction.",
-      },
-    };
-  }
-
   const playerId = String(
     getCommandOptionValue(interaction, "player_id") ?? "",
   ).trim();
@@ -208,6 +228,116 @@ async function handleInteraction(
           parse: [],
         },
       },
+    },
+  };
+}
+
+async function handleAddAllianceMemberInteraction(
+  interaction: DiscordInteractionPayload,
+): Promise<InteractionResponse> {
+  const playerId = String(
+    getCommandOptionValue(interaction, "player_id") ?? "",
+  ).trim();
+  const allianceName = String(
+    getCommandOptionValue(interaction, "alliance_name") ?? "",
+  ).trim();
+
+  if (!playerId || !allianceName) {
+    return {
+      statusCode: 400,
+      body: {
+        type: INTERACTION_RESPONSE_TYPE_CHANNEL_MESSAGE_WITH_SOURCE,
+        data: {
+          content: "Missing required options: player_id and alliance_name",
+          flags: MESSAGE_FLAG_EPHEMERAL,
+        },
+      },
+    };
+  }
+
+  let result;
+
+  try {
+    result = await createPlayerRecord({
+      playerId,
+      allianceName,
+    });
+  } catch (error: unknown) {
+    const message =
+      error instanceof Error
+        ? error.message
+        : "Something went wrong while creating the player record.";
+
+    return {
+      statusCode: 400,
+      body: {
+        type: INTERACTION_RESPONSE_TYPE_CHANNEL_MESSAGE_WITH_SOURCE,
+        data: {
+          content: message,
+          flags: MESSAGE_FLAG_EPHEMERAL,
+        },
+      },
+    };
+  }
+
+  return {
+    statusCode: 200,
+    body: {
+      type: INTERACTION_RESPONSE_TYPE_CHANNEL_MESSAGE_WITH_SOURCE,
+      data: {
+        content: result.created
+          ? `Added player ${result.record.playerId} to alliance ${result.record.allianceName}`
+          : `Player ${result.record.playerId} already exists in alliance ${result.record.allianceName}`,
+        flags: MESSAGE_FLAG_EPHEMERAL,
+        embeds: [
+          buildAddAllianceMemberEmbed(
+            result.record.playerId,
+            result.record.allianceName,
+            result.created,
+          ),
+        ],
+        allowed_mentions: {
+          parse: [],
+        },
+      },
+    },
+  };
+}
+
+async function handleInteraction(
+  interaction: DiscordInteractionPayload,
+): Promise<InteractionResponse> {
+  if (interaction.type === INTERACTION_TYPE_PING) {
+    return {
+      statusCode: 200,
+      body: { type: INTERACTION_RESPONSE_TYPE_PONG },
+    };
+  }
+
+  if (
+    interaction.type !== INTERACTION_TYPE_APPLICATION_COMMAND ||
+    !interaction.data?.name
+  ) {
+    return {
+      statusCode: 400,
+      body: {
+        error: "Unsupported interaction.",
+      },
+    };
+  }
+
+  if (interaction.data.name === "check-alliance-member") {
+    return handleCheckAllianceMemberInteraction(interaction);
+  }
+
+  if (interaction.data.name === "add-alliance-member") {
+    return handleAddAllianceMemberInteraction(interaction);
+  }
+
+  return {
+    statusCode: 400,
+    body: {
+      error: "Unsupported interaction.",
     },
   };
 }
